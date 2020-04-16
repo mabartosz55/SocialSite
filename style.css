@@ -1,0 +1,10 @@
+.container {
+    height: 500px;
+    width: 850px;
+    border: 2px solid black;
+}
+#sidebar {
+    width: 90px;
+    height: 500px;
+    background-color: gray;
+}
