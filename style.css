@@ -1,10 +1,100 @@
-.container {
-    height: 500px;
-    width: 850px;
-    border: 2px solid black;
+* {
+    box-sizing: border-box;
 }
-#sidebar {
-    width: 90px;
-    height: 500px;
-    background-color: gray;
+
+.header {
+    height: 780px;
+    width: 850px;
+    font-family: Helvetica;
+    background-color: lightgray;
+    margin: 0 auto;
+}
+
+#navbar {
+    width: 850px;
+    height: 60px;
+    background-color: lightseagreen;
+    box-sizing: border-box;
+    position: relative;
+    top: 120px;
+    margin-bottom: 130px;
+
+}
+
+#navbar span {
+    position: relative;
+    left: 216px;
+    top: 22px;
+    padding-top: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    border-left: solid darkslategray 2px;
+
+}
+
+#time {
+    border: 0 !important;
+}
+
+#name {
+    font-family: Helvetica;
+    font-weight: bold;
+    position: relative;
+    left: 220px;
+    top: 115px;
+    padding-top: 100px;
+    padding-left: 10px;
+}
+
+#website {
+    padding-top: 6px;
+    font-size: 12px;
+}
+
+#navbarRIGHT {
+    float: right;
+    padding-top: 95px;
+    padding-left: 15px;
+    padding-right: 25px;
+
+}
+
+#navbarRIGHT span {
+    padding-left: 15px;
+
+}
+
+#colOne {
+    width: 328px;
+    height: 250px;
+    background-color: lightseagreen;
+    float: left;
+    position: relative;
+}
+
+#colOne li {
+    padding: 10px 27px 10px 0px;
+    font-size: 10px;
+
+}
+
+#colTwo {
+    width: 512px;
+    height: 250px;
+    background-color: lightseagreen;
+    position: relative;
+    left: 338px;
+}
+
+#photo {
+    width: 165px;
+    height: 165px;
+    background-color: darkgrey;
+    border: 4px solid lightgray;
+    position: relative;
+    top: 280px;
+    left: 53px;
+    z-index: 10;
+
 }
