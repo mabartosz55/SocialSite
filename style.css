@@ -3,7 +3,7 @@
 }
 
 .header {
-    height: 780px;
+    height: 765px;
     width: 850px;
     font-family: Helvetica;
     background-color: lightgray;
@@ -40,9 +40,10 @@
 #name {
     font-family: Helvetica;
     font-weight: bold;
+    font-size: 20px;
     position: relative;
     left: 220px;
-    top: 115px;
+    top: 110px;
     padding-top: 100px;
     padding-left: 10px;
 }
@@ -54,14 +55,17 @@
 
 #navbarRIGHT {
     float: right;
-    padding-top: 95px;
+    padding-top: 80px;
     padding-left: 15px;
     padding-right: 25px;
+    padding-bottom: 10px;
 
 }
 
 #navbarRIGHT span {
     padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
 
 }
 
@@ -76,6 +80,17 @@
 #colOne li {
     padding: 10px 27px 10px 0px;
     font-size: 10px;
+}
+
+#photo2 {
+    height: 80px;
+    width: 80px;
+    border: 2px solid lightgray;
+    background-color: darkgray;
+    padding: 40px;
+    float: right;
+    bottom: 150px;
+    right: 100px;
 
 }
 
@@ -83,8 +98,18 @@
     width: 512px;
     height: 250px;
     background-color: lightseagreen;
+    padding: 0px 10px 10px 10px;
     position: relative;
     left: 338px;
+}
+
+#text {
+    font-size: 15px;
+    position: relative;
+    margin: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+    left: -300px;
 }
 
 #photo {
@@ -97,4 +122,49 @@
     left: 53px;
     z-index: 10;
 
+}
+
+#photo3 {
+    height: 80px;
+    width: 80px;
+    border: 2px solid lightgray;
+    background-color: darkgray;
+    float: right;
+    padding: 10px 30px 10px 30px;
+    bottom: 135px;
+    left: 100px;
+
+}
+
+#Like {
+    height: 20px;
+    width: 150px;
+    background-color: white;
+    border: 2px solid darkgrey;
+    padding-bottom: 10px;
+}
+
+#Follow {
+    height: 20px;
+    width: 150px;
+    background-color: white;
+    border: 2px solid darkgrey;
+    padding-bottom: 10px;
+}
+
+#Message {
+    height: 20px;
+    width: 150px;
+    background-color: white;
+    border: 2px solid darkgrey;
+    padding-bottom: 10px;
+
+}
+
+#dots {
+    height: 20px;
+    width: 150px;
+    background-color: white;
+    border: 2px solid darkgrey;
+    padding-bottom: 10px;
 }
